@@ -1,0 +1,11 @@
+@BeConnectedAppsTesting.Api_HostAddress = http://localhost:5080
+
+GET {{BeConnectedAppsTesting.Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{BeConnectedAppsTesting.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###

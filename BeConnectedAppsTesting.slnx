@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BeConnectedAppsTesting.Api/BeConnectedAppsTesting.Api.csproj" />
+    <Project Path="src/BeConnectedAppsTesting.Application/BeConnectedAppsTesting.Application.csproj" />
+    <Project Path="src/BeConnectedAppsTesting.Domain/BeConnectedAppsTesting.Domain.csproj" />
+    <Project Path="src/BeConnectedAppsTesting.Infrastructure/BeConnectedAppsTesting.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BeConnectedAppsTesting.Api.Tests/BeConnectedAppsTesting.Api.Tests.csproj" />
+    <Project Path="tests/BeConnectedAppsTesting.Application.Tests/BeConnectedAppsTesting.Application.Tests.csproj" />
+  </Folder>
+</Solution>

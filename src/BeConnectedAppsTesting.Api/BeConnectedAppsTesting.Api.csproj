@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Serilog.AspNetCore" />
+    <PackageReference Include="Serilog.Sinks.Console" />
+    <PackageReference Include="Serilog.Sinks.File" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BeConnectedAppsTesting.Application\BeConnectedAppsTesting.Application.csproj" />
+    <ProjectReference Include="..\BeConnectedAppsTesting.Infrastructure\BeConnectedAppsTesting.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

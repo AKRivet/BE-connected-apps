@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <!-- Explicit pin to remediate GHSA-2m69-gcr7-jv3q; remove once EF Core SQLite ships a fixed transitive dep -->
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BeConnectedAppsTesting.Domain\BeConnectedAppsTesting.Domain.csproj" />
+    <ProjectReference Include="..\BeConnectedAppsTesting.Application\BeConnectedAppsTesting.Application.csproj" />
+  </ItemGroup>
+
+</Project>

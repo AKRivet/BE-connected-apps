@@ -15,3 +15,9 @@ Thumbs.db
 # Env
 .env
 .env.local
+
+# Logs (written by Serilog file sink at runtime)
+logs/
+
+# Test results
+TestResults/
