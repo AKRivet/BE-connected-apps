@@ -1,3 +1,4 @@
+using BeConnectedAppsTesting.Api.Auth;
 using BeConnectedAppsTesting.Api.Middleware;
 using BeConnectedAppsTesting.Api.Projects;
 
@@ -29,6 +30,7 @@ internal static class WebApplicationExtensions
     internal static WebApplication MapApiEndpoints(this WebApplication app)
     {
         app.MapHealthChecks("/health");
+        app.MapAuthEndpoints();
         app.MapProjectEndpoints();
 
         return app;
